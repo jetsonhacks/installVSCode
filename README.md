@@ -6,6 +6,7 @@ Shell scripts to install Microsoft Visual Studio Code on ARM 64 machines (e.g. N
 
 <h3>Install with Python support</h3>
 To install Visual Studio Code on the Jetson, with the Python extension enabled:
+
 ```
 $ ./installVSCodeWithPython.sh
 ```
@@ -31,10 +32,9 @@ $ code
 <h3>Notes</h3>
 
 <h4>October, 2024</h4>
-<ul><li>Installs version 1.85.2</li>
-<li>1.85.2 is the last version that works on the Jetson Nano running Ubuntu 18.04. Never versions require a newer libc, which Nano does not support</li>
-<li>Tested on Jetson Nano 4GB</li>
-<li>L4T 32.5.7 </li>
+<ul>
+  <li>Forked from JetsonHacksNano, which uses VS Code v1.85.2</li>
+  <li>Use latest version of VS Code, for Jetson Xavier and Orins</li>
 </ul>
 
 <h4>V1 November, 2020</h4>
